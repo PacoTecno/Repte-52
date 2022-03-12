@@ -8,7 +8,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 input.onButtonPressed(Button.B, function () {
     if (Personas > 0) {
-        Personas += -1
+        Personas = Personas - 1
         basic.showNumber(Personas)
     }
 })
